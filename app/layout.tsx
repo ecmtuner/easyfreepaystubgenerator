@@ -5,6 +5,9 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  verification: {
+    google: 'vsumFg2f7U5kN7XVAxvmXabt-ERbZYcY2nth1whemdY',
+  },
   title: 'Easy Free Pay Stub Generator — Create Professional Pay Stubs in Minutes',
   description: 'Generate a professional pay stub instantly. Enter your info, preview for free, download for $5. Perfect for contractors, freelancers, and small businesses.',
   keywords: 'free pay stub generator, paystub maker, check stub generator, pay stub online, free paystub, contractor pay stub, freelancer pay stub',
