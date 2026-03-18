@@ -8,6 +8,36 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'what-is-a-pay-stub',
+    title: 'What Is a Pay Stub and What Should It Include?',
+    desc: 'A plain-English breakdown of every field on a pay stub — gross pay, deductions, taxes, and net pay — and why each one matters.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'how-to-make-pay-stub-free',
+    title: 'How to Make a Pay Stub for Free (Step-by-Step)',
+    desc: 'A simple step-by-step guide to creating a professional pay stub — whether you\'re an employee, freelancer, or small business owner.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'pay-stub-requirements-by-state-2025',
+    title: 'Pay Stub Requirements by State (2025)',
+    desc: 'Pay stub laws vary by state. Here\'s what employers must provide in California, Texas, New York, Florida, and more.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'pay-stubs-self-employed-freelancers',
+    title: 'Pay Stubs for Self-Employed and Freelancers',
+    desc: 'Self-employed? You still need pay stubs — for apartments, loans, and taxes. Here\'s how freelancers can create pay documentation without an employer.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'pay-stub-to-rent-apartment',
+    title: 'Do I Need a Pay Stub to Rent an Apartment?',
+    desc: 'Most landlords ask for pay stubs as proof of income. Here\'s what they\'re looking for and what to do if you don\'t have traditional stubs.',
+    date: 'March 2025',
+  },
+  {
     slug: 'how-to-make-a-pay-stub',
     title: 'How to Make a Pay Stub for Free in 2024',
     desc: 'Step-by-step guide to creating a professional pay stub — for employees, self-employed workers, and contractors.',
