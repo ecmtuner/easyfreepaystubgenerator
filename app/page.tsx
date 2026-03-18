@@ -10,12 +10,12 @@ const features = [
 ];
 
 const useCases = [
-  'Proof of income for apartment applications',
-  'Income verification for bank loans or mortgages',
-  'Records for self-employed contractors',
+  'Payroll records for self-employed contractors',
   'Documentation for freelancers and gig workers',
-  'Small business payroll records',
-  'Tax preparation documentation',
+  'Small business owner payroll tracking',
+  'Tax preparation and income documentation',
+  'Record-keeping for 1099 independent contractors',
+  'Year-end earnings summary for self-employed professionals',
 ];
 
 const faqs = [
@@ -32,8 +32,8 @@ const faqs = [
     a: 'We calculate federal income tax (2024 brackets, single or married filing), state income tax for all 50 states, Social Security (6.2%), Medicare (1.45%), and any additional deductions you enter.'
   },
   {
-    q: 'Can I use this for an apartment application?',
-    a: 'Yes. Many landlords and property managers accept pay stubs as proof of income. Our stubs include all standard fields: employer info, employee info, gross pay, deductions, and net pay.'
+    q: 'Who is this tool designed for?',
+    a: 'This tool is designed for self-employed individuals, freelancers, 1099 contractors, and small business owners who need to generate accurate payroll records for their own earnings. It is not intended to misrepresent income or create fraudulent documents.'
   },
   {
     q: 'Do you store my personal information?',
@@ -74,7 +74,7 @@ export default function HomePage() {
             <span className="text-green-600">Ready in 2 Minutes</span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Create a professional pay stub instantly. Fill out your info, preview for free,
+            Generate accurate payroll records for your business or self-employment. Fill out your info, preview for free,
             and download a print-ready PDF for just $5. No account needed.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -134,8 +134,8 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Who Uses Our Pay Stub Generator?</h2>
-              <p className="text-gray-600 mb-6">Whether you're a contractor, freelancer, or small business owner, a professional pay stub helps you prove income and keep records.</p>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Built for Self-Employed Professionals</h2>
+              <p className="text-gray-600 mb-6">Freelancers, 1099 contractors, and small business owners use our tool to generate accurate payroll records and track their own earnings.</p>
               <ul className="space-y-3">
                 {useCases.map(u => (
                   <li key={u} className="flex items-start gap-2 text-gray-700">
