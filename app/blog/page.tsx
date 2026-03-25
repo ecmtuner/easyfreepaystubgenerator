@@ -8,6 +8,42 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: 'free-pay-stub-generator-online',
+    title: 'How to Generate a Free Pay Stub Online in Minutes',
+    desc: 'Learn how to use a free pay stub generator to create a professional pay stub in minutes — no software, no accountant, no hassle.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'best-pay-stub-generator-self-employed',
+    title: 'The Best Free Pay Stub Generator for Self-Employed Workers',
+    desc: 'Self-employed and need income documentation? Find the best pay stub generator for freelancers, sole proprietors, and independent workers.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'free-check-stub-maker',
+    title: 'Free Check Stub Maker: Create Professional Pay Stubs Instantly',
+    desc: 'Use a free check stub maker to create accurate, professional pay stubs in minutes. No sign-up required, instant PDF download.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'pay-stub-generator-no-sign-up',
+    title: 'Free Pay Stub Generator — No Sign Up, No Download Required',
+    desc: 'Generate a professional pay stub online with no account required. Free preview, instant PDF download, works on any device.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'pay-stub-generator-for-contractors',
+    title: 'Pay Stub Generator for Independent Contractors and 1099 Workers',
+    desc: 'Independent contractor? Get a pay stub generator built for 1099 workers — accurate self-employment tax calculations, professional PDF output.',
+    date: 'March 2025',
+  },
+  {
+    slug: 'proof-of-income-pay-stub-generator',
+    title: 'How to Create Proof of Income with a Free Pay Stub Generator',
+    desc: 'Need proof of income? A free pay stub generator creates the credible income documentation landlords and lenders actually want.',
+    date: 'March 2025',
+  },
+  {
     slug: 'what-is-a-pay-stub',
     title: 'What Is a Pay Stub and What Should It Include?',
     desc: 'A plain-English breakdown of every field on a pay stub — gross pay, deductions, taxes, and net pay — and why each one matters.',
